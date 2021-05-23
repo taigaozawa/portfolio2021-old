@@ -4,7 +4,11 @@
 //
 // import { User } from 'path/to/interfaces';
 
-export type User = {
-  id: number
-  name: string
+export type Note = {
+  id: number;
+  createdAt: string;
+  updatedAt: string;
+  title: string;
+  body: string;
+  tag: string[];
 }
