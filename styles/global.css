@@ -1,0 +1,14 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Noto+Sans+JP:wght@100;400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', 'Roboto', 'Noto Sans JP', sans-serif;
+}
