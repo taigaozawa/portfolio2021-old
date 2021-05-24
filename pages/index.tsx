@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { useState } from 'react';
 import useInterval from 'use-interval';
+import Dropdown from '../components/Dropdown';
 
 const IndexPage = () => {
   const [messageIteration, setMessageIteration] = useState(0);
@@ -60,6 +61,7 @@ const IndexPage = () => {
               <Link href="/profile"><div className="cursor-pointer text-sm mr-2 rounded-full mt-2.5 h-8  text-white px-3 pt-1.5 bg-pink-600 hover:bg-pink-700 transition ease-in-out duration-500">プロフィール Profile</div></Link>
               <Link href="/notes"><div className="cursor-pointer text-sm rounded-full mt-2.5 h-8  text-white px-3 pt-1.5 bg-lightBlue-600 hover:bg-lightBlue-700 transition ease-in-out duration-500">ノート Notes</div></Link>
             </div>
+            <div className="flex sm:hidden mt-3"><Dropdown /></div>
           </div>
         </div>
       </div>
