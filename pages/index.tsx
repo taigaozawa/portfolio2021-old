@@ -48,6 +48,7 @@ const IndexPage = () => {
               })()
               }
             </div>
+            <a href="#about" className="scrButton mt-8 text-lg font-extralight"><span></span></a>
           </div>
         </div>
         <div className="fixed px-2 h-12 top-0 bg-gray-200 w-screen bg-opacity-70">
@@ -62,7 +63,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-blue-50 flex flex-col justify-center items-center">
+      <div id="about" className="bg-blue-50 flex flex-col justify-center items-center">
         <div className="mt-24 mx-2 bg-opacity-70 text-white bg-gray-900 p-3 sm:p-5 rounded-3xl shadow-2xl">
           <h1 className="mt-1 pb-3 sm:mt-3 px-3 pb-2 border-b-2 border-yellow-600 text-xl sm:text-4xl flex justify-center items-center">
             <div className="mr-4 font-extralight ">小澤泰河 </div>
